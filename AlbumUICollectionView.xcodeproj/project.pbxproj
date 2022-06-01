@@ -56,15 +56,47 @@
 		AF05642128475AF2007F45AB /* AlbumUICollectionView */ = {
 			isa = PBXGroup;
 			children = (
+				AFCF31DC2847D221004A7E75 /* Resources */,
+				AFCF31DB2847D208004A7E75 /* Delegate */,
+				AFCF31DD2847D24A004A7E75 /* Modules */,
+			);
+			path = AlbumUICollectionView;
+			sourceTree = "<group>";
+		};
+		AFCF31DB2847D208004A7E75 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
 				AF05642228475AF2007F45AB /* AppDelegate.swift */,
 				AF05642428475AF2007F45AB /* SceneDelegate.swift */,
-				AF05642628475AF2007F45AB /* ViewController.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		AFCF31DC2847D221004A7E75 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AF05643028475AF3007F45AB /* Info.plist */,
 				AF05642828475AF2007F45AB /* Main.storyboard */,
 				AF05642B28475AF3007F45AB /* Assets.xcassets */,
 				AF05642D28475AF3007F45AB /* LaunchScreen.storyboard */,
-				AF05643028475AF3007F45AB /* Info.plist */,
 			);
-			path = AlbumUICollectionView;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AFCF31DD2847D24A004A7E75 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				AFCF31DE2847D25E004A7E75 /* View */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		AFCF31DE2847D25E004A7E75 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AF05642628475AF2007F45AB /* ViewController.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
